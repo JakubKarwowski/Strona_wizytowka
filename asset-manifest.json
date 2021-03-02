@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JakubKarwowski/Strona_wizytowka.git/static/css/main.9ef5064e.chunk.css",
-    "main.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/main.43b9aa8e.chunk.js",
-    "main.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/main.43b9aa8e.chunk.js.map",
-    "runtime-main.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/runtime-main.0068cd45.js",
-    "runtime-main.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/runtime-main.0068cd45.js.map",
-    "static/js/2.d327c81c.chunk.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js",
-    "static/js/2.d327c81c.chunk.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js.map",
-    "static/js/3.4a631ba5.chunk.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/3.4a631ba5.chunk.js",
-    "static/js/3.4a631ba5.chunk.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/3.4a631ba5.chunk.js.map",
-    "index.html": "/JakubKarwowski/Strona_wizytowka.git/index.html",
-    "static/css/main.9ef5064e.chunk.css.map": "/JakubKarwowski/Strona_wizytowka.git/static/css/main.9ef5064e.chunk.css.map",
-    "static/js/2.d327c81c.chunk.js.LICENSE.txt": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js.LICENSE.txt"
+    "main.css": "/Strona_wizytowka/static/css/main.9ef5064e.chunk.css",
+    "main.js": "/Strona_wizytowka/static/js/main.43b9aa8e.chunk.js",
+    "main.js.map": "/Strona_wizytowka/static/js/main.43b9aa8e.chunk.js.map",
+    "runtime-main.js": "/Strona_wizytowka/static/js/runtime-main.04158dde.js",
+    "runtime-main.js.map": "/Strona_wizytowka/static/js/runtime-main.04158dde.js.map",
+    "static/js/2.d327c81c.chunk.js": "/Strona_wizytowka/static/js/2.d327c81c.chunk.js",
+    "static/js/2.d327c81c.chunk.js.map": "/Strona_wizytowka/static/js/2.d327c81c.chunk.js.map",
+    "static/js/3.4a631ba5.chunk.js": "/Strona_wizytowka/static/js/3.4a631ba5.chunk.js",
+    "static/js/3.4a631ba5.chunk.js.map": "/Strona_wizytowka/static/js/3.4a631ba5.chunk.js.map",
+    "index.html": "/Strona_wizytowka/index.html",
+    "static/css/main.9ef5064e.chunk.css.map": "/Strona_wizytowka/static/css/main.9ef5064e.chunk.css.map",
+    "static/js/2.d327c81c.chunk.js.LICENSE.txt": "/Strona_wizytowka/static/js/2.d327c81c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0068cd45.js",
+    "static/js/runtime-main.04158dde.js",
     "static/js/2.d327c81c.chunk.js",
     "static/css/main.9ef5064e.chunk.css",
     "static/js/main.43b9aa8e.chunk.js"
