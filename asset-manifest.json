@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JakubKarwowski/Strona_wizytowka.git/static/css/main.ceac6349.chunk.css",
+    "main.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/main.17940ff9.chunk.js",
+    "main.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/main.17940ff9.chunk.js.map",
+    "runtime-main.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/runtime-main.0068cd45.js",
+    "runtime-main.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/runtime-main.0068cd45.js.map",
+    "static/js/2.d327c81c.chunk.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js",
+    "static/js/2.d327c81c.chunk.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js.map",
+    "static/js/3.4a631ba5.chunk.js": "/JakubKarwowski/Strona_wizytowka.git/static/js/3.4a631ba5.chunk.js",
+    "static/js/3.4a631ba5.chunk.js.map": "/JakubKarwowski/Strona_wizytowka.git/static/js/3.4a631ba5.chunk.js.map",
+    "index.html": "/JakubKarwowski/Strona_wizytowka.git/index.html",
+    "static/css/main.ceac6349.chunk.css.map": "/JakubKarwowski/Strona_wizytowka.git/static/css/main.ceac6349.chunk.css.map",
+    "static/js/2.d327c81c.chunk.js.LICENSE.txt": "/JakubKarwowski/Strona_wizytowka.git/static/js/2.d327c81c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0068cd45.js",
+    "static/js/2.d327c81c.chunk.js",
+    "static/css/main.ceac6349.chunk.css",
+    "static/js/main.17940ff9.chunk.js"
+  ]
+}
