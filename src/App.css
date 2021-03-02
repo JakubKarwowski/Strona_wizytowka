@@ -1,7 +1,14 @@
+body{
+  background-color:#333333 ;
+}
 .App {
   text-align: center;
-  background-color:#333333 ;
+  
   color: #CBA135;
+}
+
+span{
+  padding 20px
 }
 
 
