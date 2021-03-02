@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <h1>
         <FontAwesomeIcon icon={faHeart} />
-          Kocham Cię Misiaczku!!!
+          <span> Kocham Cię Misiaczku!!! </span>
         <FontAwesomeIcon icon={faHeart} />
         </h1>
       </header>
