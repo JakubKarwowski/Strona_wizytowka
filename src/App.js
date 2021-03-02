@@ -1,10 +1,15 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1><i class="fas fa-heart"></i>Kocham Cię Misiaczku!!!<i class="fas fa-heart"></i>
+        <h1>
+        <FontAwesomeIcon icon={faHeart} />
+          Kocham Cię Misiaczku!!!
+        <FontAwesomeIcon icon={faHeart} />
         </h1>
       </header>
     </div>
