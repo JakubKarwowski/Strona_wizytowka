@@ -1,17 +1,17 @@
-import './App.css';
+import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import Header from './Header'
+import Body from './Body'
+import Footer from './Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-        <FontAwesomeIcon icon={faHeart} />
-          <span> Kocham Cię Misiaczku!!! </span>
-        <FontAwesomeIcon icon={faHeart} />
-        </h1>
-      </header>
+      <Header/>
+      <Body/>
+      <Footer/>
+
     </div>
   );
 }
