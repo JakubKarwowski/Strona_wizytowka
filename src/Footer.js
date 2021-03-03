@@ -3,7 +3,9 @@ import './Footer.scss'
 
 class Footer extends React.Component {
     render() {
-        return (  <h1>Footer</h1>
+        return (  <footer>
+            <p>Przykładowy tekst footera</p>
+        </footer>
 
         );
     };
