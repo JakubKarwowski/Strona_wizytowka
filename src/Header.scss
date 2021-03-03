@@ -14,6 +14,7 @@ header{
     div.logo{
         height: 50px;
         width: 50px;
+        margin-left: 5px;
         color:#CBA135;
         text-align: center;
         // line-height: 100%;
@@ -21,7 +22,7 @@ header{
         p{
             font-size: 50px;
             font-family: 'Zeyada', cursive;
-            transform: translateY(-23px);
+            transform: translateY(-24px);
         }
     }
     div.menu{   
