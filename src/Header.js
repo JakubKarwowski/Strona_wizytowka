@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss'
-import {BrowserRouter as Router, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 
@@ -16,17 +16,17 @@ class Header extends React.Component {
         return ( 
             <header>
                 <div className="logo"><p>JK</p></div>
-                <Router>
-                    <div className={this.state.menuClass}>
-                        <ul>
-                            <li><NavLink to='/' exact>Start</NavLink></li>
-                            <li><NavLink to='/about'>About</NavLink></li>
-                            <li><NavLink to='/portfolio'>Portfolio</NavLink></li>
-                            <li><NavLink to='/blog'>Blog</NavLink></li>
-                            <li><NavLink to='/contact'>Contact</NavLink></li>
-                        </ul>
-                    </div>
-                </Router>
+                
+                <div className={this.state.menuClass}>
+                    <ul>
+                        <li><NavLink to='/' exact>Start</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/portfolio'>Portfolio</NavLink></li>
+                        <li><NavLink to='/blog'>Blog</NavLink></li>
+                        <li><NavLink to='/contact'>Contact</NavLink></li>
+                    </ul>
+                </div>
+                
                 <button className='hamburger' onClick={this.showMenu}><FontAwesomeIcon icon={faBars} /></button>
             </header>
 
