@@ -11,20 +11,11 @@ class Header extends React.Component {
             menuClass: "menu",
     };
 
-    componentDidMount(){
-        // let button = document.querySelector('button.hamburger');
-        // let menu = document.querySelectorAll('div.menu'); 
-    }
-
-    
-
     render() {
-
-        console.log(this.state.menuVisible)
-        console.log(this.state.menuClass)
+        
         return ( 
             <header>
-                <div className="logo">JK</div>
+                <div className="logo"><p>JK</p></div>
                 <Router>
                     <div className={this.state.menuClass}>
                         <ul>
@@ -41,13 +32,16 @@ class Header extends React.Component {
 
         );
     };
-    showMenu= ()=>{
+    showMenu =()=>{
 
-        if(this.state.menuVisible === false)
+        if(this.state.menuVisible === false){ 
             this.setState({
                 menuVisible: !this.state.menuVisible,
                 menuClass: "menu, visible"
             });
+            this.hideMenu();    
+        }
+           
         else 
             this.setState({
                 menuVisible: !this.state.menuVisible,
@@ -55,6 +49,17 @@ class Header extends React.Component {
             });
        
     };
+    hideMenu =()=>{
+        let a = document.querySelectorAll('a');
+        let menu = document.querySelector('div.menu')
+        a.forEach((a)=>{
+        a.addEventListener('click', ()=>{   
+            this.setState ({
+                menuVisible: false,
+                menuClass: "menu"
+            })   
+        })})
+    }
 };
 
 export default Header;

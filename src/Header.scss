@@ -1,11 +1,15 @@
 header{
-    margin: 10px 20px;
+    position: fixed;
     padding: 10px 0;
     border-top: 1px solid #CBA135;
     border-bottom: 1px solid #CBA135;
-
     display: flex;
     justify-content: space-between;
+    top: 20px;
+    z-index: 2;
+    background-color: #333333;
+    left: 20px;
+    right: 20px;    
     
     div.logo{
         height: 50px;
@@ -13,15 +17,18 @@ header{
         color:#CBA135;
         text-align: center;
         // line-height: 100%;
-        font-size: 40px;
-        font-family: 'Petit Formal Script', cursive;
+        
+        p{
+            font-size: 50px;
+            font-family: 'Zeyada', cursive;
+            transform: translateY(-23px);
+        }
     }
-    div.menu{
+    div.menu{   
         display: none;
         }
     div.menu.visible{
-        display:block;
-        
+        display: block;
     }
     li{
         list-style: none;
@@ -36,11 +43,18 @@ header{
             font-size: 30px;
             text-align: center;
         }
+        a:hover{
+            color: darken($color: #CBA135, $amount: 20%);
+        }
         a.active{
-            color: #333333;
-            background-color: #CBA135;
-            border-radius: 5px;
+            border-bottom: 2px solid #CBA135;
+            // color: #333333;
+            // background-color: #CBA135;
+            // border-radius: 5px;
             // box-shadow: black 20px;
+        }
+        a.active:hover{
+            border-color: darken($color: #CBA135, $amount: 20%);;
         }
     }    
     button{
@@ -51,8 +65,13 @@ header{
         border: none;
         color: #CBA135;
     }
+    button:focus {
+        outline :none;
+    }
+    button:hover {
+        cursor: pointer;
+        color: darken($color: #CBA135, $amount: 20%);
+    }
     
 }
-
-
 
