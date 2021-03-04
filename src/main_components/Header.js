@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss'
+import '../main_styles/Header.scss'
 import {NavLink} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
