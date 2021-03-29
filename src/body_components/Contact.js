@@ -1,11 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../body_styles/Contact.scss'
 
-const handlePhoneOnClick = ()=>{
-console.log('click')
+const handlePhoneOnClick = (event)=>{
+    const phoneNumber = document.querySelector('div.phone p');
+    phoneNumber.classList.toggle('active');
 }
 const handleEnvelopeOnClick = ()=>{
-console.log('click')
+    const form = document.querySelector('div.mail form')
+    form.classList.toggle('active');
+console.log(form)
+}
+const handleOnSubmit = (event)=>{
+    event.preventdefault();
 }
 
 function Contact (){
@@ -38,7 +44,7 @@ function Contact (){
                     <button onClick={handleEnvelopeOnClick}>
                         <FontAwesomeIcon icon='envelope' />
                     </button>
-                    <form>
+                    <form onSubmit={handleOnSubmit}>
                         <label>Name</label>
                         <input type='text' placeholder='Write Your name here'></input>
                         <label>E-mail</label>
