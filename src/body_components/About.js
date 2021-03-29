@@ -15,11 +15,8 @@ class About extends React.Component{
                 <h1>Want to know my hobbies? :)</h1>          
                 <About_Create items= {data_about.items}/>
             </div>
-
         );
     };
-   
-    
 };
 
 export default About;
