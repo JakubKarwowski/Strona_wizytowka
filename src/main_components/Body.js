@@ -11,11 +11,11 @@ class Body extends React.Component {
         return (  
             <div className="body">
                 <Switch>
-                  <Route path="/" exact component={Start} />
-                  <Route path="/about" component={About} />
+                  <Route path="/Strona_wizytowka/" exact component={Start} />
+                  <Route path="/Strona_wizytowka/about" component={About} />
                   {/* <Route path="/portfolio" exact component={portfolio} /> */}
                   {/* <Route path="/blog" exact component={blog} /> */}
-                  <Route path="/contact" component={Contact} />
+                  <Route path="/Strona_wizytowka/contact" component={Contact} />
                 </Switch>  
             </div>
 
