@@ -1,5 +1,4 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function About_Create (props) {
@@ -8,7 +7,7 @@ function About_Create (props) {
     (item=>{
         return(
             <div key={item.icon} className={item.classname}>
-                <span className= 'icon'>
+                <span className='icon'>
                     <FontAwesomeIcon icon={item.icon}/>
                 </span>
                 <section className='iconDescription'>
