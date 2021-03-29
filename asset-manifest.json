@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Strona_wizytowka/static/css/main.e5e5e6ce.chunk.css",
-    "main.js": "/Strona_wizytowka/static/js/main.f4460e2c.chunk.js",
-    "main.js.map": "/Strona_wizytowka/static/js/main.f4460e2c.chunk.js.map",
-    "runtime-main.js": "/Strona_wizytowka/static/js/runtime-main.5eae774f.js",
-    "runtime-main.js.map": "/Strona_wizytowka/static/js/runtime-main.5eae774f.js.map",
-    "static/js/2.e07ad651.chunk.js": "/Strona_wizytowka/static/js/2.e07ad651.chunk.js",
-    "static/js/2.e07ad651.chunk.js.map": "/Strona_wizytowka/static/js/2.e07ad651.chunk.js.map",
-    "static/js/3.30d8cbc9.chunk.js": "/Strona_wizytowka/static/js/3.30d8cbc9.chunk.js",
-    "static/js/3.30d8cbc9.chunk.js.map": "/Strona_wizytowka/static/js/3.30d8cbc9.chunk.js.map",
+    "main.css": "/Strona_wizytowka/static/css/main.02a117bc.chunk.css",
+    "main.js": "/Strona_wizytowka/static/js/main.b996de47.chunk.js",
+    "main.js.map": "/Strona_wizytowka/static/js/main.b996de47.chunk.js.map",
+    "runtime-main.js": "/Strona_wizytowka/static/js/runtime-main.9f8b5e4c.js",
+    "runtime-main.js.map": "/Strona_wizytowka/static/js/runtime-main.9f8b5e4c.js.map",
+    "static/js/2.45d38a42.chunk.js": "/Strona_wizytowka/static/js/2.45d38a42.chunk.js",
+    "static/js/2.45d38a42.chunk.js.map": "/Strona_wizytowka/static/js/2.45d38a42.chunk.js.map",
+    "static/js/3.88573112.chunk.js": "/Strona_wizytowka/static/js/3.88573112.chunk.js",
+    "static/js/3.88573112.chunk.js.map": "/Strona_wizytowka/static/js/3.88573112.chunk.js.map",
     "index.html": "/Strona_wizytowka/index.html",
-    "static/css/main.e5e5e6ce.chunk.css.map": "/Strona_wizytowka/static/css/main.e5e5e6ce.chunk.css.map",
-    "static/js/2.e07ad651.chunk.js.LICENSE.txt": "/Strona_wizytowka/static/js/2.e07ad651.chunk.js.LICENSE.txt"
+    "static/css/main.02a117bc.chunk.css.map": "/Strona_wizytowka/static/css/main.02a117bc.chunk.css.map",
+    "static/js/2.45d38a42.chunk.js.LICENSE.txt": "/Strona_wizytowka/static/js/2.45d38a42.chunk.js.LICENSE.txt",
+    "static/media/New_standards.cb5512ed.png": "/Strona_wizytowka/static/media/New_standards.cb5512ed.png",
+    "static/media/Responsive.d3e49994.png": "/Strona_wizytowka/static/media/Responsive.d3e49994.png",
+    "static/media/noBackground.298768b3.png": "/Strona_wizytowka/static/media/noBackground.298768b3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5eae774f.js",
-    "static/js/2.e07ad651.chunk.js",
-    "static/css/main.e5e5e6ce.chunk.css",
-    "static/js/main.f4460e2c.chunk.js"
+    "static/js/runtime-main.9f8b5e4c.js",
+    "static/js/2.45d38a42.chunk.js",
+    "static/css/main.02a117bc.chunk.css",
+    "static/js/main.b996de47.chunk.js"
   ]
 }
