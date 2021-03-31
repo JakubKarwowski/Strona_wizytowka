@@ -3,6 +3,7 @@ import my_photo from '../pictures/noBackground.png'
 import responsive_img from '../pictures/Responsive.png'
 import new_standarts from '../pictures/New_standards.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {NavLink} from 'react-router-dom'
 
 function Start(){
     return(
@@ -27,8 +28,15 @@ function Start(){
                     <li><h3><FontAwesomeIcon icon='check-square'/> fast</h3></li>    
                     <li><h3><FontAwesomeIcon icon='check-square'/> modern</h3></li>    
                     <li><h3><FontAwesomeIcon icon='check-square'/> beautiful</h3></li>    
-                    <li><h3><FontAwesomeIcon icon='check-square'/> user friendly</h3></li>    
+                    <li><h3><FontAwesomeIcon icon='check-square'/> user friendly</h3></li>  
+                    <li><h3><FontAwesomeIcon icon='check-square'/> minimalistic</h3></li>    
                 </ul>  
+            </section>
+            <section className='links'>
+                <div><NavLink to='/Strona_wizytowka/about'>More about me</NavLink></div>
+                <div><NavLink to='/Strona_wizytowka/portfolio'>My work</NavLink></div>
+                <div><NavLink to='/Strona_wizytowka/blog'>Read my blog</NavLink></div>
+                <div><NavLink to='/Strona_wizytowka/contact'>Contact me</NavLink></div>
             </section>
         </div>
     );

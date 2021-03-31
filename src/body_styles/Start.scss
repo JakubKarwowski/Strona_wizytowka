@@ -19,6 +19,7 @@ div.page_wrapper {
         }
     }
     h1{
+        font-size: 30px;
         margin: 10px;
         text-align: center;
     }
@@ -26,6 +27,9 @@ div.page_wrapper {
         text-align: center;
     }
     section.websites_description{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: #CBA135 solid 2px;
         div{
             position:relative;
             margin: 5px 0;
@@ -39,7 +43,7 @@ div.page_wrapper {
                 text-align: center;
                 padding: 5px 10px;
                 text-transform: uppercase;
-                color: white;
+                color: #CBA135;
             }    
         }
         h2{
@@ -55,6 +59,34 @@ div.page_wrapper {
             li{
                 width: 42%;
                 margin: 5px 0;
+            }
+        }
+    }
+    section.links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        div{
+            min-width: 51%;
+            margin: 15px auto;
+            padding: 10px 15px;
+            font-size: 20px;
+            border:#CBA135 2px solid;
+            text-align: center;
+            &:hover{
+                cursor: pointer;
+                background-color: #CBA135;
+                a{
+                    color: #333;
+                }
+            }
+            
+            a{
+                text-align: center;
+                color:#CBA135;
+                text-decoration: none;
+
             }
         }
     }
