@@ -4,7 +4,7 @@ import '../main_styles/Footer.scss'
 class Footer extends React.Component {
     render() {
         return (  <footer>
-            <p>Przykładowy tekst footera</p>
+            <p>@Jakub Karwowski 2021</p>
         </footer>
 
         );
