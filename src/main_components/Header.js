@@ -21,8 +21,8 @@ class Header extends React.Component {
                     <ul>
                         <li><NavLink to='/Strona_wizytowka' exact>Start</NavLink></li>
                         <li><NavLink to='/Strona_wizytowka/about'>About</NavLink></li>
-                        <li><NavLink to='/Strona_wizytowka/portfolio'>Portfolio</NavLink></li>
-                        <li><NavLink to='/Strona_wizytowka/blog'>Blog</NavLink></li>
+                        {/* <li><NavLink to='/Strona_wizytowka/portfolio'>Portfolio</NavLink></li> */}
+                        {/* <li><NavLink to='/Strona_wizytowka/blog'>Blog</NavLink></li> */}
                         <li><NavLink to='/Strona_wizytowka/contact'>Contact</NavLink></li>
                     </ul>
                 </div>

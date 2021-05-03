@@ -34,8 +34,8 @@ function Start(){
             </section>
             <section className='links'>
                 <div><NavLink to='/Strona_wizytowka/about'>More about me</NavLink></div>
-                <div><NavLink to='/Strona_wizytowka/portfolio'>My work</NavLink></div>
-                <div><NavLink to='/Strona_wizytowka/blog'>Read my blog</NavLink></div>
+                {/* <div><NavLink to='/Strona_wizytowka/portfolio'>My work</NavLink></div> */}
+                {/* <div><NavLink to='/Strona_wizytowka/blog'>Read my blog</NavLink></div> */}
                 <div><NavLink to='/Strona_wizytowka/contact'>Contact me</NavLink></div>
             </section>
         </div>
