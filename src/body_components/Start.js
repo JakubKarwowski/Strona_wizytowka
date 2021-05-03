@@ -13,6 +13,19 @@ function Start(){
                 <h2>Web developer/ freelancer.</h2>
                 <img src={my_photo} alt='My photo'/>
             </div>
+            <div className='short_description'>
+                <p>I live in Lodz - Poland. I am abmitious, young person that loves to learn and push the boundaries. </p>
+                <p>I enjoy solving multiple problems for others and creating beautiful products.</p>
+                <p>Web development is not only my work and source of income but most importantly- the PASSION. </p>
+                <p className='center'>My motto is:</p>
+                <div className='motto_container'>
+                    <p className='motto'>"Do what you can, with what you have, where you are."</p>
+                    <p className='author'>Theodore Roosevelt</p>
+                </div>
+                <p className='center'>More about me:</p>
+                <div className='button'><NavLink to='/Strona_wizytowka/about'>Read my story</NavLink></div>
+            </div>
+           
             <h1>My websites are:</h1>
             <section className='websites_description'>
                 <div className='responsive'>
@@ -33,10 +46,10 @@ function Start(){
                 </ul>  
             </section>
             <section className='links'>
-                <div><NavLink to='/Strona_wizytowka/about'>More about me</NavLink></div>
+                <div className='button'><NavLink to='/Strona_wizytowka/about'>My hobbies</NavLink></div>
                 {/* <div><NavLink to='/Strona_wizytowka/portfolio'>My work</NavLink></div> */}
                 {/* <div><NavLink to='/Strona_wizytowka/blog'>Read my blog</NavLink></div> */}
-                <div><NavLink to='/Strona_wizytowka/contact'>Contact me</NavLink></div>
+                <div className='button'><NavLink to='/Strona_wizytowka/contact'>Contact me</NavLink></div>
             </section>
         </div>
     );

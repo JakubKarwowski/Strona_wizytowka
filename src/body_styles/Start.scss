@@ -18,6 +18,39 @@ div.page_wrapper {
             // background-color: yellow;
         }
     }
+    div.short_description{
+        p{
+            margin: 10px 0;
+            font-size: 20px;
+            text-indent: 50px;
+            text-align: justify;
+        }
+        p.center{
+            text-align: center;
+            text-indent: 0;
+        }
+        div.motto_container{
+            margin: 0 15px;
+            padding: 5px 10px;
+            border: 4px solid #CBA135;
+            p{
+                text-align: center;
+                text-indent: 0;
+            }
+            p.motto{
+                font-weight: bold;
+                font-style: italic;
+            }
+            p.author{
+                font-size: 15px;
+            }   
+        }
+        div.button{
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        } 
+    }
     h1{
         font-size: 30px;
         margin: 10px;
@@ -27,6 +60,7 @@ div.page_wrapper {
         text-align: center;
     }
     section.websites_description{
+
         padding-bottom: 10px;
         margin-bottom: 10px;
         border-bottom: #CBA135 solid 2px;
@@ -67,7 +101,31 @@ div.page_wrapper {
         flex-wrap: wrap;
         justify-content: space-around;
         
-        div{
+        // div{
+        //     min-width: 51%;
+        //     margin: 15px auto;
+        //     padding: 10px 15px;
+        //     font-size: 20px;
+        //     border:#CBA135 2px solid;
+        //     text-align: center;
+        //     &:hover{
+        //         cursor: pointer;
+        //         background-color: #CBA135;
+        //         a{
+        //             color: #333;
+        //         }
+        //     }
+            
+        //     a{
+        //         text-align: center;
+        //         color:#CBA135;
+        //         text-decoration: none;
+
+        //     }
+        // }
+    }
+    div.button{
+            display: inline-block;
             min-width: 51%;
             margin: 15px auto;
             padding: 10px 15px;
@@ -89,5 +147,4 @@ div.page_wrapper {
 
             }
         }
-    }
 }
