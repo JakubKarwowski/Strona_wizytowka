@@ -23,16 +23,16 @@ function Start(){
                     <p className='author'>Theodore Roosevelt</p>
                 </div>
                 <p className='center'>More about me:</p>
-                <div className='button'><NavLink to='/Strona_wizytowka/about'>Read my story</NavLink></div>
+                <div className='button'><NavLink to='/Strona_wizytowka/my_story'>Read my story</NavLink></div>
             </div>
            
             <h1>My websites are:</h1>
             <section className='websites_description'>
-                <div className='responsive'>
+                <div>
                     <h2>Responsive</h2>
                     <img src={responsive_img} alt='Responsive websites'/>    
                 </div>
-                <div className='responsive'>
+                <div>
                     <h2>Using new standarts</h2>   
                     <img src={new_standarts} alt='New standarts'/>    
                 </div>
@@ -46,7 +46,7 @@ function Start(){
                 </ul>  
             </section>
             <section className='links'>
-                <div className='button'><NavLink to='/Strona_wizytowka/about'>My hobbies</NavLink></div>
+                <div className='button'><NavLink to='/Strona_wizytowka/hobbies'>My hobbies</NavLink></div>
                 {/* <div><NavLink to='/Strona_wizytowka/portfolio'>My work</NavLink></div> */}
                 {/* <div><NavLink to='/Strona_wizytowka/blog'>Read my blog</NavLink></div> */}
                 <div className='button'><NavLink to='/Strona_wizytowka/contact'>Contact me</NavLink></div>

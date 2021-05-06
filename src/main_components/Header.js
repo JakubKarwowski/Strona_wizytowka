@@ -20,7 +20,8 @@ class Header extends React.Component {
                 <div className={this.state.menuClass}>
                     <ul>
                         <li><NavLink to='/Strona_wizytowka' exact>Start</NavLink></li>
-                        <li><NavLink to='/Strona_wizytowka/about'>About</NavLink></li>
+                        <li><NavLink to='/Strona_wizytowka/mystory'>My story</NavLink></li>
+                        <li><NavLink to='/Strona_wizytowka/hobbies'>My hobbies</NavLink></li>
                         {/* <li><NavLink to='/Strona_wizytowka/portfolio'>Portfolio</NavLink></li> */}
                         {/* <li><NavLink to='/Strona_wizytowka/blog'>Blog</NavLink></li> */}
                         <li><NavLink to='/Strona_wizytowka/contact'>Contact</NavLink></li>
