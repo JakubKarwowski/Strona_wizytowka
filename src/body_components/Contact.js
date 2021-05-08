@@ -17,8 +17,8 @@ const handleOnSubmit = (event)=>{
 function Contact (){
     return (
         <div className='contact'>
-            <h1>Would You like to contact me to start the cooperation or to suggest some improvement on this website? :)
-            </h1>   
+            <h2>Would You like to contact me to start the cooperation or to suggest some improvement on this website? :)
+            </h2>   
             <div className='links'>
                 <div className='link'>
                     <a href="https://www.linkedin.com/in/jakub-karwowski-033a0715b/?locale=en_US" target="_blank">
