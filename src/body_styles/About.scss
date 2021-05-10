@@ -6,7 +6,7 @@ div.about{
         text-align: center;
     }     
     div{
-        cursor: pointer;
+        // cursor: pointer;
         position: relative;
         min-height: 120px;
         width: 95%;
@@ -15,7 +15,10 @@ div.about{
         
         overflow: hidden;
         margin: 10px auto;
-        span.icon{
+        button.icon{
+            // margin: 0 auto;
+            cursor: pointer;
+            padding: 30px;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -23,6 +26,9 @@ div.about{
             line-height: 70px;
             font-size: 70px;
             transition: 1s;
+            color: #CBA135;
+            background-color: transparent;
+            border: none;
         }
         section.iconDescription{
             // display : inline-block;
@@ -41,16 +47,16 @@ div.about{
                 text-align: center;
             }
         }
-        &:hover{
-            span.icon{
+        &.active{
+            button{
                 cursor: pointer;
-                transform: translateX(-100vw);
-            }
+                transform: translate(-100vw, -50%);
+                // transform: translateY(-50%);
+            }        
             section.iconDescription{
                 // position:absolute;
                 transform: translateX(-100vw);
             }
-
         }
     }
 }
