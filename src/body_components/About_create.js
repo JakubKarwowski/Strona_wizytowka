@@ -8,7 +8,7 @@ const handleIconOnClick = (event)=>{
         }
     )
     event.currentTarget.parentNode.classList.add('active');
-    console.log(event.currentTarget.parentNode);
+    // console.log(event.currentTarget.parentNode);
     // console.log(event.target.parentNode.parentNode.classList)
 
 };
