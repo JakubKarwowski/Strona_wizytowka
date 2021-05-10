@@ -36,7 +36,7 @@ function Contact (){
                     <button onClick={handlePhoneOnClick}>
                         <FontAwesomeIcon icon='phone-alt' />
                     </button>
-                    <p>+48 697 206 030</p>
+                    <p>+48 697206030</p>
                 </div>
             </div>
             <div className='mail'>
