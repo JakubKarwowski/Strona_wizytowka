@@ -14,7 +14,7 @@ function Start(){
                 <img src={my_photo} alt='My photo'/>
             </div>
             <div className='short_description'>
-                <p>I live in Lodz - Poland. I am abmitious, young person that loves to learn and push the boundaries. </p>
+                <p>I live in Lodz - Poland. I am ambitious, young person that loves to learn and push the boundaries. </p>
                 <p>I enjoy solving multiple problems for others and creating beautiful products.</p>
                 <p>Web development is not only my work and source of income but most importantly- the PASSION. </p>
                 <p className='center'>My motto is:</p>
