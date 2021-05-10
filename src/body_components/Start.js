@@ -23,7 +23,7 @@ function Start(){
                     <p className='author'>Theodore Roosevelt</p>
                 </div>
                 <p className='center'>More about me:</p>
-                <div className='button'><NavLink to='/Strona_wizytowka/my_story'>Read my story</NavLink></div>
+                <div className='button'><NavLink to='/Strona_wizytowka/mystory'>Read my story</NavLink></div>
             </div>
            
             <h1>My websites are:</h1>
