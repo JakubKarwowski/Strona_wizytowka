@@ -12,18 +12,21 @@ header{
     right: 20px;    
     
     div.logo{
-        height: 50px;
+        height: 60px;
         width: 50px;
         margin-left: 5px;
-        color:#CBA135;
-        text-align: center;
+        // color:#CBA135;
+        // text-align: center;
         // line-height: 100%;
-        
-        p{
-            font-size: 50px;
-            font-family: 'Zeyada', cursive;
-            transform: translateY(-24px);
+
+        img {
+            height: 60px;
         }
+        // p{
+        //     font-size: 50px;
+        //     font-family: 'Zeyada', cursive;
+        //     transform: translateY(-24px);
+        // }
     }
     div.menu{   
         display: none;
@@ -41,9 +44,10 @@ header{
             padding: 0 10px;
             color: #CBA135;
             text-decoration: none;
+            font-family: 'Cinzel', serif;
             font-size: 30px;
-            font-style: italic;
-            font-weight: bold;
+            // font-style: italic;
+            // font-weight: 500;
             letter-spacing: 1px;
             text-align: center;
         }
@@ -62,9 +66,9 @@ header{
         }
     }    
     button{
-        height: 50px;
+        height: 60px;
         width: 50px;
-        font-size: 30px;
+        font-size: 35px;
         background-color: transparent;
         border: none;
         color: #CBA135;
