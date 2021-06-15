@@ -3,6 +3,7 @@ import '../main_styles/Header.scss'
 import {NavLink} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
+import logo from '../Logo.png';
 
 class Header extends React.Component {
 
@@ -15,7 +16,9 @@ class Header extends React.Component {
         
         return ( 
             <header>
-                <div className="logo"><p>JK</p></div>
+                <div className="logo">
+                <NavLink to='/Strona_wizytowka' exact><img src={logo} alt='logo' /></NavLink>
+                </div>
                 
                 <div className={this.state.menuClass}>
                     <ul>
