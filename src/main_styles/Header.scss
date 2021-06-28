@@ -1,6 +1,9 @@
 header{
     position: fixed;
+
+    max-width: 1480px;
     padding: 7px 0;
+    margin: 0 auto;
     border-top: 1px solid #CBA135;
     border-bottom: 1px solid #CBA135;
     display: flex;
@@ -9,11 +12,14 @@ header{
     z-index: 2;
     background-color: #333333;
     left: 20px;
-    right: 20px;    
+    right: 20px;
+    @media (min-width: 992px) {
+        align-items: center;
+    }      
     
     div.logo{
         height: 70px;
-        width: 50px;
+        width: 70px;
         margin-left: 5px;
         // color:#CBA135;
         // text-align: center;
@@ -28,12 +34,32 @@ header{
         //     transform: translateY(-24px);
         // }
     }
-    div.menu{   
+    div{
+        &.menu{   
         display: none;
+        // flex-grow: 1;
+        @media (min-width: 992px) {
+            display: block;       
+            flex-grow: 1;
+        }    
         }
-    div.menu.visible{
-        display: block;
+        &.visible{
+            display: block;
+            flex-grow: 1;
+        }
+        &.menu,&.visible{
+            @media (min-width: 992px) {      
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    // height: 100%;
+                    // top: 50%;
+                    
+                }
+            }    
+        }
     }
+    
     li{
         list-style: none;
         padding: 10px 0;
@@ -50,6 +76,7 @@ header{
             // font-weight: 500;
             letter-spacing: 1px;
             text-align: center;
+            line-height: 100%;
         }
         a:hover{
             color: darken($color: #CBA135, $amount: 20%);
@@ -67,11 +94,15 @@ header{
     }    
     button{
         height: 70px;
-        width: 50px;
+        width: 70px;
         font-size: 40px;
         background-color: transparent;
         border: none;
         color: #CBA135;
+        @media (min-width: 992px) {
+            display: none;
+            
+        }
     }
     button:focus {
         outline :none;
