@@ -9,8 +9,11 @@ function Start(){
     return(
         <div className='page_wrapper'>
             <div className='introduction'>
+                <div className='welcome_text'>
                 <h1>Hello, my name is Jakub.</h1>
                 <h2>Web developer/ freelancer.</h2>
+                </div>
+                
                 <img src={my_photo} alt='My photo'/>
             </div>
             <div className='short_description'>
