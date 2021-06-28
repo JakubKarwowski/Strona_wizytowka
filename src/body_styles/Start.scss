@@ -14,7 +14,7 @@ div.page_wrapper {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: calc(#{$vh} - 140px);
+        height: calc(#{$vh} - 170px);
         // background-color: yellow;
         @media (orientation: landscape) {
             flex-direction: row;
