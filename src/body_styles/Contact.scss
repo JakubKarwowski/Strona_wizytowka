@@ -1,4 +1,6 @@
 div.contact{
+    margin: 0 auto;
+    max-width: 1420px;
     h2{
         color: #CBA135; 
         text-align: center;
@@ -52,11 +54,9 @@ div.contact{
                 padding: 5px 10px;
                 color: #CBA135;
                 font-size: 70px;
-               
             }
             p{
                 color: #CBA135;
-                font-size: 20px;
                 display: none;
             }
             p.active{
@@ -67,22 +67,27 @@ div.contact{
     }
     div.mail{
         div.wrapper{
-            // background-color: red;
             display: flex;
             flex-direction: column;
             min-width: 250px;
             justify-content: space-evenly;
             margin: 30px 0 60px 0;
-            // min-width: 300px;
             button{
                 margin: 0 auto;
                 padding: 5px 10px;
-               
             }
             form{
                 display: none;
-                // background-color: blue;
-                // align-items: center;
+                @media (min-width: 768px) and (orientation: portrait) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                @media (min-width: 992px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
                 &.active{
                     display: flex;
                     flex-direction: column;
@@ -90,17 +95,33 @@ div.contact{
                 }
                 label{
                     margin: 5px auto;
-                    font-size: 20px;
-                    // text-align: center;
+                    font-size: 1.2em ;
+                    @media (min-width: 768px){
+                        font-size: 1.3em;
+                    }
+                    @media (min-width: 992px){
+                        font-size: 1.5em;
+                    }
+                    @media (min-width: 1200px){
+                        font-size: 1.7em;
+                    }
                     color: #CBA135;
-                    // background-color: yellow;
                 }
                 input{
                     margin: 5px auto;
                     min-width: 250px;
                     width: 70vw;
-                    max-width: 400px;
-                    font-size: 15px;
+                    max-width: 700px;
+                    font-size: 1em ;
+                    @media (min-width: 768px){
+                    font-size: 1.1em;
+                    }
+                    @media (min-width: 992px){
+                        font-size: 1.3em;
+                    }
+                    @media (min-width: 1200px){
+                        font-size: 1.5em;
+                    }
                     text-align: center;
                     color: #ddd;
                     padding: 10px;
@@ -112,7 +133,9 @@ div.contact{
                         outline: none;
                     }
                     &:nth-last-child(1){
-                        margin: 5px auto;
+                        width: auto;
+                        margin: 10px auto;
+                        padding: 10px 30px;
                         color: #CBA135;
                         background-color: transparent;
                         border: 2px solid #CBA135;
@@ -135,21 +158,24 @@ div.contact{
                     border: none;
                     margin: 5px 0;
                     padding: 10px;
-                    font-size: 15px;
+                    font-size: 1em ;
+                    @media (min-width: 768px){
+                    font-size: 1.1em;
+                    }
+                    @media (min-width: 992px){
+                        font-size: 1.3em;
+                    }
+                    @media (min-width: 1200px){
+                        font-size: 1.5em;
+                    }
                     resize: none;
                     &:focus{
                         outline:none;
                     }
                 }
-                
-                
-
             }
         }
-    }
-
-    
-               
+    }              
     button{
         color: #CBA135;
         background-color: transparent;

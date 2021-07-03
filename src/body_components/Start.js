@@ -31,14 +31,17 @@ function Start(){
            
             <h1>My websites are:</h1>
             <section className='websites_description'>
-                <div>
-                    <h2>Responsive</h2>
-                    <img src={responsive_img} alt='Responsive websites'/>    
+                <div className='images'>
+                    <div>
+                        <h2>Responsive</h2>
+                        <img src={responsive_img} alt='Responsive websites'/>    
+                    </div>
+                    <div>
+                        <h2>Using new standarts</h2>   
+                        <img src={new_standarts} alt='New standarts'/>    
+                    </div>
                 </div>
-                <div>
-                    <h2>Using new standarts</h2>   
-                    <img src={new_standarts} alt='New standarts'/>    
-                </div>
+                
                 <h2>AND ALSO:</h2>
                 <ul>
                     <li><h3><FontAwesomeIcon icon='check-square'/> fast</h3></li>    
