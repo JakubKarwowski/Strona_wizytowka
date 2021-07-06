@@ -78,6 +78,7 @@ div.contact{
             }
             form{
                 display: none;
+                font-family: 'Inconsolata', monospace;
                 @media (min-width: 768px) and (orientation: portrait) {
                     display: flex;
                     flex-direction: column;
@@ -139,7 +140,8 @@ div.contact{
                         color: #CBA135;
                         background-color: transparent;
                         border: 2px solid #CBA135;
-                        font-weight: 550;
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: 600;
                         &:focus{
                             outline :none;
                         }

@@ -18,21 +18,26 @@ header{
     }      
     
     div.logo{
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
         margin-left: 5px;
-        // color:#CBA135;
-        // text-align: center;
-        // line-height: 100%;
-
-        img {
-            height: 70px;
+        @media (min-width:350px) {
+            height: 60px;
+            width: 60px;    
         }
-        // p{
-        //     font-size: 50px;
-        //     font-family: 'Zeyada', cursive;
-        //     transform: translateY(-24px);
-        // }
+        @media (min-width:576px) {
+            height: 70px;
+            width: 70px;
+        }
+        img {
+            height: 50px;
+            @media (min-width:350px) {
+                height: 60px;
+            }
+            @media (min-width:576px) {
+                height: 70px;
+            }
+        }
     }
     div{
         &.menu{   
@@ -70,13 +75,15 @@ header{
             padding: 0 10px;
             color: #CBA135;
             text-decoration: none;
-            font-family: 'Cinzel', serif;
-            font-size: 30px;
-            // font-style: italic;
-            // font-weight: 500;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 24px;
             letter-spacing: 1px;
             text-align: center;
             line-height: 100%;
+            @media (min-width:350px) {
+                font-size: 30px;
+                
+            }
         }
         a:hover{
             color: darken($color: #CBA135, $amount: 20%);
@@ -93,12 +100,22 @@ header{
         }
     }    
     button{
-        height: 70px;
-        width: 70px;
-        font-size: 40px;
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
         background-color: transparent;
         border: none;
         color: #CBA135;
+        @media (min-width:350px) {
+            font-size: 35px;
+            height: 60px;
+            width: 60px;    
+        }
+        @media (min-width:576px) {
+            font-size: 40px; 
+            height: 70px;
+            width: 70px;
+        }
         @media (min-width: 992px) {
             display: none;
             

@@ -1,10 +1,15 @@
 body {
-  // margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  h1, h2{
+    font-family: 'Inconsolata', monospace;
+  }
+  p, li, a{
+    // font-family: 'Domine', serif;
+    // font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Titillium Web', sans-serif;
+  }
+
 }
 
 code {

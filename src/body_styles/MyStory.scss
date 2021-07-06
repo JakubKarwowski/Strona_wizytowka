@@ -24,16 +24,6 @@ div.wrapper{
         // min-width: 420px;
         // max-width: 100%;
         margin-left: 10%;
-        font-size: 1.2em ;
-        @media (min-width: 768px){
-            font-size: 1.3em;
-        }
-        @media (min-width: 992px){
-            font-size: 1.5em;
-        }
-        @media (min-width: 1200px){
-            font-size: 1.7em;
-        }
         li{
             a{
                 color: #CBA135;

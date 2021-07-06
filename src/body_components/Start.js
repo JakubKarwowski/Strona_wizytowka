@@ -37,18 +37,18 @@ function Start(){
                         <img src={responsive_img} alt='Responsive websites'/>    
                     </div>
                     <div>
-                        <h2>Using new standarts</h2>   
-                        <img src={new_standarts} alt='New standarts'/>    
+                        <h2>Using new standards</h2>   
+                        <img src={new_standarts} alt='New standards'/>    
                     </div>
                 </div>
                 
-                <h2>AND ALSO:</h2>
+                <h2>And also:</h2>
                 <ul>
-                    <li><h3><FontAwesomeIcon icon='check-square'/> fast</h3></li>    
-                    <li><h3><FontAwesomeIcon icon='check-square'/> modern</h3></li>    
-                    <li><h3><FontAwesomeIcon icon='check-square'/> beautiful</h3></li>    
-                    <li><h3><FontAwesomeIcon icon='check-square'/> user friendly</h3></li>  
-                    <li><h3><FontAwesomeIcon icon='check-square'/> minimalistic</h3></li>    
+                    <li><FontAwesomeIcon icon='check-square'/> fast</li>    
+                    <li><FontAwesomeIcon icon='check-square'/> modern</li>    
+                    <li><FontAwesomeIcon icon='check-square'/> user friendly</li>    
+                    <li><FontAwesomeIcon icon='check-square'/> beautiful</li>  
+                    <li><FontAwesomeIcon icon='check-square'/> minimalistic</li>    
                 </ul>  
             </section>
             <section className='links'>

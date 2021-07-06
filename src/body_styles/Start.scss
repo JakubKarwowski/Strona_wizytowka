@@ -112,9 +112,11 @@ div.page_wrapper {
         div.images{            
             display:flex;
             flex-direction: column;
+            // margin-bottom: 10px;
             @media (orientation:landscape) {
                 flex-direction: row;
                 border-bottom: 2px solid #CBA135;
+                margin-bottom: 15px;
             }
             div{
                 padding: 15px 0;
